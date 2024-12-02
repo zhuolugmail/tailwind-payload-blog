@@ -21,7 +21,11 @@
       "@/data/*": ["data/*"],
       "@/layouts/*": ["layouts/*"],
       "@/css/*": ["css/*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "contentlayer/generated": ["./.contentlayer/generated"],
+      "@payload-config": [
+        "./payload.config.ts"
+      ],
+      "@/*": ["./*"]
     },
     "plugins": [
       {
